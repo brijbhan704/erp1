@@ -1,0 +1,29 @@
+[25-Oct-2019 09:59:17 UTC] PHP Fatal error:  Class App\Expense contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) in /home/techczyo/public_html/expense_plus/app/Expense.php on line 10
+[25-Oct-2019 10:01:16 UTC] PHP Fatal error:  Class App\Expense contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) in /home/techczyo/public_html/expense_plus/app/Expense.php on line 10
+[25-Oct-2019 10:01:53 UTC] PHP Fatal error:  Class App\Expense contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier, Tymon\JWTAuth\Contracts\JWTSubject::getJWTCustomClaims) in /home/techczyo/public_html/expense_plus/app/Expense.php on line 10
+[28-Oct-2019 16:46:50 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home/techczyo/public_html/expense_plus/app/Http/Controllers/v1/UserController.php on line 325
+[28-Oct-2019 16:47:40 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home/techczyo/public_html/expense_plus/app/Http/Controllers/v1/UserController.php on line 325
+[28-Oct-2019 16:51:35 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home/techczyo/public_html/expense_plus/app/Http/Controllers/v1/UserController.php on line 325
+[02-Nov-2019 12:14:28 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/techczyo/public_html/expense_plu in /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[02-Nov-2019 12:14:34 Asia/Kolkata] PHP Fatal error:  Uncaught ReflectionException: Class config does not exist in /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php:729
+Stack trace:
+#0 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php(729): ReflectionClass->__construct('config')
+#1 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php(608): Illuminate\Container\Container->build('config')
+#2 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php(575): Illuminate\Container\Container->resolve('config')
+#3 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(728): Illuminate\Container\Container->make('config')
+#4 /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(106): Illuminate\Foundation\Application->make('config')
+#5 /home/techczyo/public_html/expense_plu in /home/techczyo/public_html/expense_plus/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 729
+[02-Nov-2019 07:35:11 UTC] PHP Fatal error:  Cannot use try without catch or finally in /home/techczyo/public_html/expense_plus/app/Http/Controllers/ExpenseController.php on line 17
+[02-Nov-2019 09:41:42 UTC] PHP Fatal error:  Cannot declare class App\Http\Controllers\Category because the name is already in use in /home/techczyo/public_html/expense_plus/app/Http/Controllers/Category.php on line 11
+[05-Nov-2019 16:53:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home/techczyo/public_html/expense_plus/app/Http/Controllers/ExpenseController.php on line 93
+[06-Nov-2019 06:46:42 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 199233536 bytes) in /home/techczyo/public_html/expense_plus/app/Http/Controllers/ExpenseController.php on line 102
+[06-Nov-2019 17:38:21 UTC] PHP Fatal error:  Class App\User contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Tymon\JWTAuth\Contracts\JWTSubject::getJWTIdentifier) in /home/techczyo/public_html/expense_plus/app/User.php on line 9
+[14-Nov-2019 06:08:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/techczyo/public_html/expense_plus/storage/framework/views/038e4a382b0dc20c7abb9d78de3d16b69584c62b.php on line 96
+[14-Nov-2019 06:14:58 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/techczyo/public_html/expense_plus/storage/framework/views/038e4a382b0dc20c7abb9d78de3d16b69584c62b.php on line 96
